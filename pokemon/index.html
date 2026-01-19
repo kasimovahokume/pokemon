@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-area">
+        <div class="c-you">
+        <img
+          id="playerImg1"
+          class="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZN93bVszwT6CxyRa8lEo9EUNvPjO62C9lPA&s"
+          alt=""
+        />
+        <h1 class="player">YOU</h1>
+        <h1 id="playerPoint1" class="point">POINT: 0</h1>
+        <p id="playerStatus1" class="status">STATUS: STARTING</p>
+      </div>
+
+      <div class="vs">VS</div>
+           
+      <div class="c-comp">
+        <img
+          id="playerImg2"
+          class="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZN93bVszwT6CxyRa8lEo9EUNvPjO62C9lPA&s"
+          alt=""
+        />
+        <h1 class="player">COMP</h1>
+        <h1 id="playerPoint2" class="point">POINT: 0</h1>
+        <p id="playerStatus2" class="status">STATUS: STARTING</p>
+      </div>
+      </div>
+      <div class="buttons">
+        <button id="resetBtn" onclick="resetGame()">RESET</button>
+    </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
